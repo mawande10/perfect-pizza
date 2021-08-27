@@ -3,7 +3,19 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.buy{
+    padding: 1em;
+    margin: 1em;
+}
 
+.Check{
+    padding: 1em;
+    margin: 1em;
+}
+
+.warning{
+    background-color : orange;
+}
 
 .pizza {
    /* box-model */
@@ -21,6 +33,14 @@ body {
    min-width: 30em; 
    */
 }
+
+
+
+.contain {
+    background-color: #E12;
+    flex : 1
+}
+
 .medium_pizza {
     background-color: #FF595E;
     flex : 1
@@ -37,6 +57,7 @@ body {
 .contact_us {
     background-color: #8AC926;
 }
+
 @media (min-width: 760px) {
    /* apply this css if the page is wide than 760px */
     /* body {
@@ -51,7 +72,7 @@ body {
 }
 
 
-@media (min-width: 960px) {
+@media screen and (min-width: 960px) {
     /* apply this css if the page is wide than 960px */
     /* body {
         background-color: #FFF;
